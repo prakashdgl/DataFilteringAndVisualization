@@ -1,0 +1,18 @@
+﻿.column
+{
+    margin:2px;
+    background-color:aqua;
+    border:1px solid black;
+    width:20em;
+    height:14em;
+    overflow:auto;
+    position:relative;
+    float:left;
+    /*background:yellow;*/
+}
+
+.submit
+{
+    
+    clear:both;
+}

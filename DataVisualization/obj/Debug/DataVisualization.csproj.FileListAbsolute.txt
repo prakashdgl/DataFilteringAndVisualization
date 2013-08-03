@@ -1,0 +1,45 @@
+D:\DOCUMENTS\NepaSoft\DataVisualization\DataVisualization\obj\Debug\ResolveAssemblyReference.cache
+D:\DOCUMENTS\NepaSoft\DataVisualization\DataVisualization\bin\DataVisualization.dll
+D:\DOCUMENTS\NepaSoft\DataVisualization\DataVisualization\bin\DataVisualization.pdb
+D:\DOCUMENTS\NepaSoft\DataVisualization\DataVisualization\obj\Debug\DataVisualization.dll
+D:\DOCUMENTS\NepaSoft\DataVisualization\DataVisualization\obj\Debug\DataVisualization.pdb
+C:\Users\User\Documents\Visual Studio 2010\Projects\DataVisualization\DataVisualization\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2010\Projects\DataVisualization\DataVisualization\obj\Debug\DataVisualization.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\DataVisualization\DataVisualization\obj\Debug\DataVisualization.pdb
+C:\Users\User\Documents\Visual Studio 2010\Projects\DataVisualization\DataVisualization\bin\DataVisualization.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\DataVisualization\DataVisualization\bin\DataVisualization.pdb
+D:\DOCUMENTS\NepaSoft\DataVisualization\AggregatedDatavisulaizationSystem\DataVisualization\DataVisualization\bin\DataVisualization.dll
+D:\DOCUMENTS\NepaSoft\DataVisualization\AggregatedDatavisulaizationSystem\DataVisualization\DataVisualization\bin\DataVisualization.pdb
+D:\DOCUMENTS\NepaSoft\DataVisualization\AggregatedDatavisulaizationSystem\DataVisualization\DataVisualization\obj\Debug\ResolveAssemblyReference.cache
+D:\DOCUMENTS\NepaSoft\DataVisualization\AggregatedDatavisulaizationSystem\DataVisualization\DataVisualization\obj\Debug\DataVisualization.dll
+D:\DOCUMENTS\NepaSoft\DataVisualization\AggregatedDatavisulaizationSystem\DataVisualization\DataVisualization\obj\Debug\DataVisualization.pdb
+G:\nepasoft\RobikEdit\DataVisualization\DataVisualization\bin\DataVisualization.dll
+G:\nepasoft\RobikEdit\DataVisualization\DataVisualization\bin\DataVisualization.pdb
+G:\nepasoft\RobikEdit\DataVisualization\DataVisualization\obj\Debug\ResolveAssemblyReference.cache
+G:\nepasoft\RobikEdit\DataVisualization\DataVisualization\obj\Debug\DataVisualization.dll
+G:\nepasoft\RobikEdit\DataVisualization\DataVisualization\obj\Debug\DataVisualization.pdb
+G:\nepasoft\RobikEdit\Edited\DataVisualization\DataVisualization\bin\DataVisualization.dll
+G:\nepasoft\RobikEdit\Edited\DataVisualization\DataVisualization\bin\DataVisualization.pdb
+G:\nepasoft\RobikEdit\Edited\DataVisualization\DataVisualization\obj\Debug\ResolveAssemblyReference.cache
+G:\nepasoft\RobikEdit\Edited\DataVisualization\DataVisualization\obj\Debug\DataVisualization.dll
+G:\nepasoft\RobikEdit\Edited\DataVisualization\DataVisualization\obj\Debug\DataVisualization.pdb
+C:\Users\power\Desktop\Edited\DataVisualization\DataVisualization\bin\DataVisualization.dll
+C:\Users\power\Desktop\Edited\DataVisualization\DataVisualization\bin\DataVisualization.pdb
+C:\Users\power\Desktop\Edited\DataVisualization\DataVisualization\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\power\Desktop\Edited\DataVisualization\DataVisualization\obj\Debug\DataVisualization.dll
+C:\Users\power\Desktop\Edited\DataVisualization\DataVisualization\obj\Debug\DataVisualization.pdb
+D:\DOCUMENTS\NepaSoft\DataVisualization\Edited\DataVisualization\DataVisualization\bin\DataVisualization.dll
+D:\DOCUMENTS\NepaSoft\DataVisualization\Edited\DataVisualization\DataVisualization\bin\DataVisualization.pdb
+D:\DOCUMENTS\NepaSoft\DataVisualization\Edited\DataVisualization\DataVisualization\obj\Debug\ResolveAssemblyReference.cache
+D:\DOCUMENTS\NepaSoft\DataVisualization\Edited\DataVisualization\DataVisualization\obj\Debug\DataVisualization.dll
+D:\DOCUMENTS\NepaSoft\DataVisualization\Edited\DataVisualization\DataVisualization\obj\Debug\DataVisualization.pdb
+D:\DOCUMENTS\NepaSoft\DataVisualization\DataVisualization(Integrated_Template Without Chart)\DataVisualization\bin\DataVisualization.dll
+D:\DOCUMENTS\NepaSoft\DataVisualization\DataVisualization(Integrated_Template Without Chart)\DataVisualization\bin\DataVisualization.pdb
+D:\DOCUMENTS\NepaSoft\DataVisualization\DataVisualization(Integrated_Template Without Chart)\DataVisualization\obj\Debug\ResolveAssemblyReference.cache
+D:\DOCUMENTS\NepaSoft\DataVisualization\DataVisualization(Integrated_Template Without Chart)\DataVisualization\obj\Debug\DataVisualization.dll
+D:\DOCUMENTS\NepaSoft\DataVisualization\DataVisualization(Integrated_Template Without Chart)\DataVisualization\obj\Debug\DataVisualization.pdb
+G:\nepasoft\7-16-2012 Nepasoft\DataVisualization(Integrated_Template Without Chart)\DataVisualization\bin\DataVisualization.dll
+G:\nepasoft\7-16-2012 Nepasoft\DataVisualization(Integrated_Template Without Chart)\DataVisualization\bin\DataVisualization.pdb
+G:\nepasoft\7-16-2012 Nepasoft\DataVisualization(Integrated_Template Without Chart)\DataVisualization\obj\Debug\ResolveAssemblyReference.cache
+G:\nepasoft\7-16-2012 Nepasoft\DataVisualization(Integrated_Template Without Chart)\DataVisualization\obj\Debug\DataVisualization.dll
+G:\nepasoft\7-16-2012 Nepasoft\DataVisualization(Integrated_Template Without Chart)\DataVisualization\obj\Debug\DataVisualization.pdb

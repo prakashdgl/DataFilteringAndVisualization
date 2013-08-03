@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="DataVisualization.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+
+        <div class="banner">
+        <asp:HyperLink CssClass="topLogo" runat="server" ID="LogoHyperlink" NavigateUrl="~/Default.aspx"/>
+        
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+                
+                <% if (Session["LoggedInUserId"] != null)
+                   {%>
+                        <br />
+                        <b>Select the Theme:</b><br />
+                        <asp:DropDownList ID="ThemeDropDownList" runat="server" OnSelectedIndexChanged="ThemeDropDownList_SelectedIndexChanged"
+                            AutoPostBack="true">
+                        </asp:DropDownList>
+                <% }%>
+                <% else
+                   
+                  {%>
+                    
+                <%} %>
+
+
+            </div>
+        </div>
+        </div>
+
+            <div class="clear hideSkiplink">
+                <%if (Session["LoggedInUserId"] != null)
+              { %>
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem Text="Home">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
+                        <asp:MenuItem Text="Dashboard" Value="Dashboard" >
+                            <asp:MenuItem NavigateUrl="~/Dashboard/CreateDashboard.aspx" Text="Create" Value="Create">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Dashboard/MyDashboards.aspx" Text="Dashboard" 
+                                Value="My Dashboards"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Dashboard/SharedDashboards.aspx" Text="Shared" 
+                                Value="Shared"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Chart" 
+                            Value="Chart">
+                            <asp:MenuItem NavigateUrl="~/CreateChart/CreateChart.aspx" Text="Create" 
+                                Value="Create"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/DrawSavedChart/DrawSavedChart.aspx" Text="Saved" 
+                                Value="Saved"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/FileUpload/FileUploadCharting.aspx" Text="FileUpload" 
+                            Value="FileUpload"></asp:MenuItem>
+                        
+                    </Items>
+                </asp:Menu>
+                <%} %>
+            </div>
+        
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+        <div class="footer">
+            copyright© 2012. Nepasoft Solutions.
+        </div>
+    </div>
+    
+    </form>
+</body>
+</html>

@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CAFF91C9-3DDC-45DD-8CBC-3E7DB340B26B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataVisualization</RootNamespace>
+    <AssemblyName>DataVisualization</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="App_Data\ASPNETDB.MDF" />
+    <Content Include="App_Data\ASPNETDB_log.ldf">
+      <DependentUpon>ASPNETDB.MDF</DependentUpon>
+    </Content>
+    <Content Include="App_Themes\Blue\Blue.css" />
+    <Content Include="App_Themes\Blue\images\button_bg.png" />
+    <Content Include="App_Themes\Blue\images\footer_bg.png" />
+    <Content Include="App_Themes\Blue\images\menu_bg.png" />
+    <Content Include="App_Themes\Blue\images\on_hover_button_bg.png" />
+    <Content Include="App_Themes\Green\Green.css" />
+    <Content Include="App_Themes\Green\images\button_bg.png" />
+    <Content Include="App_Themes\Green\images\footer_bg.png" />
+    <Content Include="App_Themes\Green\images\menu_bg.png" />
+    <Content Include="App_Themes\Green\images\on_hover_button_bg.png" />
+    <Content Include="App_Themes\Orange\images\button_bg.png" />
+    <Content Include="App_Themes\Orange\images\footer_bg.png" />
+    <Content Include="App_Themes\Orange\images\menu_bg.png" />
+    <Content Include="App_Themes\Orange\images\on_hover_button_bg.png" />
+    <Content Include="App_Themes\Orange\Orange.css" />
+    <Content Include="App_Themes\Structure\images\header_bg.png" />
+    <Content Include="App_Themes\Structure\images\logo.png" />
+    <Content Include="App_Themes\Structure\images\theme_preview\Template_One_One.png" />
+    <Content Include="App_Themes\Structure\images\theme_preview\Template_Three_One.png" />
+    <Content Include="App_Themes\Structure\images\theme_preview\Template_Two.png" />
+    <Content Include="App_Themes\Structure\images\theme_preview\Template_Two_Two.png" />
+    <Content Include="App_Themes\Structure\Structure.css" />
+    <Content Include="Dashboard\CreateDashboard.aspx" />
+    <Content Include="Dashboard\MyDashboards.aspx" />
+    <Content Include="Dashboard\SharedDashboards.aspx" />
+    <Content Include="Dashboard\ShareWith.aspx" />
+    <Content Include="Dashboard\ShowDashboard.aspx" />
+    <Content Include="FileUpload\FileUploadCharting.aspx" />
+    <Content Include="Styles\StyleSheet1.css" />
+    <Content Include="Templates\ParentTemplate.aspx" />
+    <Content Include="Templates\Template_One_One.aspx" />
+    <Content Include="Templates\Template_Three_One.aspx" />
+    <Content Include="Templates\Template_Two.aspx" />
+    <Content Include="Templates\Template_Two_Two.aspx" />
+    <Content Include="UserControls\ChartUserControl.ascx" />
+    <Content Include="CreateChart\CreateChart.aspx" />
+    <Content Include="CodeBehind\Chart\DateAlingning\DateControl.aspx" />
+    <Content Include="CodeBehind\Chart\FunctionChart\DisplayFormula.aspx" />
+    <Content Include="CodeBehind\Chart\SortingChart\Sorting.aspx" />
+    <Content Include="DrawSavedChart\DrawSavedChart.aspx" />
+    <Content Include="Home\Home.aspx" />
+    <Content Include="Home\NotLoggedIn.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="UserControls\DashboardSectionUserControl.ascx" />
+    <Content Include="UserControls\DashboardUserControl.ascx" />
+    <Content Include="UserControls\SharedDashboardUserControl.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+    <Content Include="yes.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CodeBehind\ClassChartDashBoard.cs" />
+    <Compile Include="CodeBehind\DashboardClass.cs" />
+    <Compile Include="CodeBehind\DashboardModes.cs" />
+    <Compile Include="CodeBehind\Filtering\CSVFileValidator.cs" />
+    <Compile Include="CodeBehind\Filtering\DatabaseAccessLayer.cs" />
+    <Compile Include="CodeBehind\Filtering\DataBaseClass.cs" />
+    <Compile Include="CodeBehind\Filtering\DataBaseTable.cs" />
+    <Compile Include="CodeBehind\Filtering\DataTypeFinder.cs" />
+    <Compile Include="CodeBehind\Filtering\FieldValidator.cs" />
+    <Compile Include="CodeBehind\Filtering\FieldValueExtractor.cs" />
+    <Compile Include="CodeBehind\Filtering\FileTable.cs" />
+    <Compile Include="CodeBehind\Filtering\FileTabular.cs" />
+    <Compile Include="CodeBehind\Filtering\FormatValidator.cs" />
+    <Compile Include="CodeBehind\Filtering\Validator.cs" />
+    <Compile Include="Dashboard\CreateDashboard.aspx.cs">
+      <DependentUpon>CreateDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\CreateDashboard.aspx.designer.cs">
+      <DependentUpon>CreateDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\MyDashboards.aspx.cs">
+      <DependentUpon>MyDashboards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\MyDashboards.aspx.designer.cs">
+      <DependentUpon>MyDashboards.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\SharedDashboards.aspx.cs">
+      <DependentUpon>SharedDashboards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\SharedDashboards.aspx.designer.cs">
+      <DependentUpon>SharedDashboards.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\ShareWith.aspx.cs">
+      <DependentUpon>ShareWith.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\ShareWith.aspx.designer.cs">
+      <DependentUpon>ShareWith.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\ShowDashboard.aspx.cs">
+      <DependentUpon>ShowDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\ShowDashboard.aspx.designer.cs">
+      <DependentUpon>ShowDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FileUpload\FileUploadCharting.aspx.cs">
+      <DependentUpon>FileUploadCharting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FileUpload\FileUploadCharting.aspx.designer.cs">
+      <DependentUpon>FileUploadCharting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\ParentTemplate.aspx.cs">
+      <DependentUpon>ParentTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\ParentTemplate.aspx.designer.cs">
+      <DependentUpon>ParentTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Template_One_One.aspx.cs">
+      <DependentUpon>Template_One_One.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Template_One_One.aspx.designer.cs">
+      <DependentUpon>Template_One_One.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Template_Three_One.aspx.cs">
+      <DependentUpon>Template_Three_One.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Template_Three_One.aspx.designer.cs">
+      <DependentUpon>Template_Three_One.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Template_Two.aspx.cs">
+      <DependentUpon>Template_Two.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Template_Two.aspx.designer.cs">
+      <DependentUpon>Template_Two.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Template_Two_Two.aspx.cs">
+      <DependentUpon>Template_Two_Two.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Template_Two_Two.aspx.designer.cs">
+      <DependentUpon>Template_Two_Two.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ChartUserControl.ascx.cs">
+      <DependentUpon>ChartUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ChartUserControl.ascx.designer.cs">
+      <DependentUpon>ChartUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CodeBehind\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateChart\CreateChart.aspx.cs">
+      <DependentUpon>CreateChart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateChart\CreateChart.aspx.designer.cs">
+      <DependentUpon>CreateChart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CodeBehind\Chart\DateAlingning\DateControl.aspx.cs">
+      <DependentUpon>DateControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CodeBehind\Chart\DateAlingning\DateControl.aspx.designer.cs">
+      <DependentUpon>DateControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CodeBehind\Chart\FunctionChart\DisplayFormula.aspx.cs">
+      <DependentUpon>DisplayFormula.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CodeBehind\Chart\FunctionChart\DisplayFormula.aspx.designer.cs">
+      <DependentUpon>DisplayFormula.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CodeBehind\Chart\SortingChart\MyComparer.cs" />
+    <Compile Include="CodeBehind\Chart\SortingChart\Sorting.aspx.cs">
+      <DependentUpon>Sorting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CodeBehind\Chart\SortingChart\Sorting.aspx.designer.cs">
+      <DependentUpon>Sorting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CodeBehind\Database\DatabaseClass.cs" />
+    <Compile Include="CodeBehind\Database\TableNameGenerator.cs" />
+    <Compile Include="CodeBehind\Database\TableSchemaGenerator.cs" />
+    <Compile Include="DrawSavedChart\DrawSavedChart.aspx.cs">
+      <DependentUpon>DrawSavedChart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DrawSavedChart\DrawSavedChart.aspx.designer.cs">
+      <DependentUpon>DrawSavedChart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\NotLoggedIn.aspx.cs">
+      <DependentUpon>NotLoggedIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\NotLoggedIn.aspx.designer.cs">
+      <DependentUpon>NotLoggedIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CodeBehind\Theme\ThemeClass.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DashboardSectionUserControl.ascx.cs">
+      <DependentUpon>DashboardSectionUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\DashboardSectionUserControl.ascx.designer.cs">
+      <DependentUpon>DashboardSectionUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DashboardUserControl.ascx.cs">
+      <DependentUpon>DashboardUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\DashboardUserControl.ascx.designer.cs">
+      <DependentUpon>DashboardUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SharedDashboardUserControl.ascx.cs">
+      <DependentUpon>SharedDashboardUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SharedDashboardUserControl.ascx.designer.cs">
+      <DependentUpon>SharedDashboardUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yes.aspx.cs">
+      <DependentUpon>yes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yes.aspx.designer.cs">
+      <DependentUpon>yes.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Blue\Blue.skin" />
+    <Content Include="App_Themes\Green\Green.skin" />
+    <Content Include="App_Themes\Orange\Orange.skin" />
+    <Content Include="App_Themes\Structure\Structure.skin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>37596</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

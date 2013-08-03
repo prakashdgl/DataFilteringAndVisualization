@@ -1,0 +1,29 @@
+﻿div.hideSkiplink
+{
+    background:url(images/menu_bg.png) repeat-x;
+}
+  
+div.menu ul li a, div.menu ul li a:visited
+{   color:#efefef;
+}
+ 
+div.menu li li a
+{
+    background-color: #3c90e8;
+    } 
+    
+div.menu ul li a:hover{
+    background:url(images/on_hover_button_bg.png) repeat-x;
+}   
+
+.footer
+{
+     background:url(images/footer_bg.png) repeat-x;
+}
+
+input[type=submit]
+{
+    background:url(images/footer_bg.png) repeat-x;
+    color:Black;
+    }
+

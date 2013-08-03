@@ -1,0 +1,484 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+*
+{
+    margin:0px;
+    padding:0px;
+    }
+    
+body   
+{
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    background-color:#f2f2f2;
+    color:black;
+}
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width:960px;
+    margin:0 auto;
+    border:1px solid #d2d2d2;
+    border-bottom:0;
+    border-top:0;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+    background:url(images/header_bg.png) repeat-x;
+    height:90px;
+    clear:both;
+    display:block;
+}
+
+.topLogo{
+    display:block;
+    width:195px;
+    height:50px;
+    float:left;
+    margin: 20px 0  0 15px;
+    background:url(images/logo.png) no-repeat;
+}
+
+.banner
+{
+    margin-bottom:20px;
+    }
+
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 20px 20px;
+    background-color:#FFFFFF;
+    min-height:1200px;
+    max-height:1500px;
+    
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    height:45px;
+    text-align:center;
+    color:#FFFFFF;
+    font-size:11px;
+    padding:10px 0 0 0;
+}
+
+a:link, a:visited
+{
+    color: #3c90e8;
+}
+
+a:hover
+{
+    color: #00051d;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #00051d;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    height:30px;
+    color:#FFFFFF;
+    position:relative;
+    clear:both;
+}
+
+
+
+div.menu
+{   margin: 0;
+    padding: 0;
+    position:relative;    
+}
+
+div.menu ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    line-height:30px;
+}
+
+div.menu li
+{   
+    margin:0;
+    padding:0;
+    list-style:none;
+    float:left;
+}
+ 
+
+div.menu ul li a, div.menu ul li a:visited
+{   text-align:center;
+    text-decoration:none;
+    min-width:100px;
+    max-width:200px;
+    display:block;
+    color:Black;
+    font-weight: bold;
+    font-size: 14px; 
+    padding-left:5px;
+    padding-right:5px;
+    height:30px;
+    border-right: 1px solid #efefef;
+    }
+    
+    
+    
+
+div.menu ul li a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+div.menu ul ul
+{
+    position:absolute;
+    visibility:hidden;
+    top:30px;
+    }
+    
+/*Drop down list*/
+div.menu ul li:hover ul
+{
+    visibility:visible;
+    }
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    padding-top:20px;
+    color: black;
+}
+
+.loginDisplay a:link
+{
+    color: #3c90e8;
+    font-weight:bold;
+}
+
+.loginDisplay a:visited
+{
+    color: #00051d;
+}
+
+.loginDisplay a:hover
+{
+    color: black;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+/*Classes for borders*/
+
+.leftBorder
+{
+    border-left:2px solid black;
+    }
+
+.rightBorder
+{
+    border-right:2px solid black;
+    }
+    
+.topBorder
+{
+    border-top:2px solid black;
+    }
+    
+.bottomBorder
+{
+    border-bottom:2px solid black;
+    }
+ .allBorder
+ {
+     border:2px solid black;
+     }   
+ 
+.section
+{
+    border:2px solid black;
+    }     
+    
+.fullWidthSection
+{
+    min-width:900px;
+    max-width:900px;
+    min-height:400px;
+    max-height:400px;
+    clear:both;
+    }
+    
+.fullHeightSection
+{
+    min-width:450px;
+    max-width:450px;
+    min-height:500px;
+    max-height:500px;
+    }
+    
+    
+ .threeSections
+ {
+     min-width:299px;
+     max-width:299px;
+     min-height:300px;
+     max-height:300px;
+     }
+     
+ .lastOfThreeSections
+ {
+     min-width:298px;
+     max-width:298px;
+     min-height:300px;
+     max-height:300px;
+     }
+   
+ 
+ .twoSections
+ {
+    min-width:450px;
+    max-width:450px;
+    min-height:400px;
+    max-height:400px;
+     }
+ 
+ 
+ /*For submit button*/    
+ input[type=submit]
+ {
+    clear:both;
+    color:Black;
+    border-width:0px;
+    background-color:transparent;
+    border:1px solid black;
+    margin:4px;
+     }
+     
+  .saveButton
+  {
+      float:left;
+      }
+
+      
+      
+ /*Chart*/
+ #MainContent_CreateChartChartUserContrl_ucFinalChart
+ {
+     height:300px;
+     width:300px;
+     margin:20px;
+     }
+     
+  /*General classes*/
+  .left
+ {
+     float:left;
+     }
+ 
+ .right
+ {
+     float:right;
+     }
+ .bothClear
+ {
+     clear:both;
+     }
+ .leftClear
+ {
+     clear:left;
+     }
+     
+ .rightClear
+ {
+     clear:right;
+     }
